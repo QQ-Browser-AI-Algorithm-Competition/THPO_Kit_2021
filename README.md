@@ -176,18 +176,18 @@ The choices of hyperparameters have critical effects on models or strategies in 
 ## 2.Repo structure
 
 ```
-|--example_random_searcher   	  # example of random search
+|--example_random_searcher   	    # example of random search
 |  `--searcher.py
 |
 |--example_bayesian_optimization    # example of bayesian optimization
-|  |--requirements.txt                           # extra paackge requirement
+|  |--requirements.txt              # extra paackge requirement
 |  `--searcher.py
 |
-|--input                   #testcases
+|--input                            # testcases
 |  |--data-2
 |  `--data-30
 |
-|--thpo                   #thpo-kit
+|--thpo                             # thpo-kit
 |  |--__init__.py
 |  |--abstract_searcher.py
 |  |--common.py
@@ -196,11 +196,11 @@ The choices of hyperparameters have critical effects on models or strategies in 
 |  |--run_search_one_time.py
 |  `--run_search.py
 |
-|--main.py                                # main
-|--local_test.sh                        # script for local test
-|--prepare_submission.sh    # script for submission
-|--environments.txt               # packages installed in remote envrionment
-`--requirements.txt               # demo requirements
+|--main.py                          # main
+|--local_test.sh                    # script for local test
+|--prepare_submission.sh            # script for submission
+|--environments.txt                 # packages installed in remote envrionment
+`--requirements.txt                 # demo requirements
 ```
 
 ## 3. Quick start
