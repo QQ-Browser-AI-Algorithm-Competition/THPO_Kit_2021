@@ -7,10 +7,11 @@
 ## 1. 重要资源
 
 * 比赛官网：[QQ浏览器2021AI算法大赛](https://algo.browser.qq.com/)
-* 参赛手册：[自动超参数优化赛题手册](https://docs.qq.com/doc/p/49f58221ef9364d87df6978280b458223e198c2b?dver=2.1.27141849)
-* 实现和评分参考：[THPO-Kit 介绍文档](https://docs.qq.com/doc/p/a191e7e0347bed8811e6e26841205981300c0b98?dver=2.1.27141849)
+* 参赛手册：[自动超参数优化参赛手册](https://docs.qq.com/doc/p/681e40251e75740c654289ddfb827b7571107693?dver=2.1.27141849)
+* 代码仓库：[THPO-Kit Github](https://github.com/QQ-Browser-AI-Algorithm-Competition/THPO_Kit_2021)
+* 实现和评分参考：[THPO-Kit 介绍文档](https://docs.qq.com/doc/p/ab5c751cdc66a2f7abde4a3701ce375dd56ea713?dver=2.1.27141849)
 * 代码提交：[比赛代码提交入口](https://algo.browser.qq.com/profile.html)
-* 比赛Q&A：[Q&A wiki](https://github.com/QQ-Browser-AI-Algorithm-Competition/THPO_Kit_2021)
+* 比赛FAQ：[比赛常问问题](https://github.com/QQ-Browser-AI-Algorithm-Competition/THPO_Kit_2021/blob/main/FAQ.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
 ## 2.代码结构
 
@@ -153,7 +154,6 @@ For scoring, upload upload_example_random_searcher_08131917.zip at address:
 https://algo.browser.qq.com/
 ```
 
-
 ---
 
 ---
@@ -166,11 +166,12 @@ The choices of hyperparameters have critical effects on models or strategies in 
 
 ## 1.Resource
 
-* Official website：[QQ Browser 2021 AI Algorithm Competiton](https://algo.browser.qq.com/)
-* Contest manual：[Automated Hyperparameter Optimization Contest manual](https://docs.qq.com/doc/p/49f58221ef9364d87df6978280b458223e198c2b?dver=2.1.27141849)
-* API reference & ranking rules：[Introduction to THPO-Kit](https://docs.qq.com/doc/p/a191e7e0347bed8811e6e26841205981300c0b98?dver=2.1.27141849)
-* Code submission：[Code submission entry](https://algo.browser.qq.com/profile.html)
-* Competition Q&A：[Q&A wiki](https://github.com/QQ-Browser-AI-Algorithm-Competition/THPO_Kit_2021)
+* Official website：[QQ Browser 2021 AI Algorithm Competiton](https://algo.browser.qq.com/#en)
+* Contest manual：[Automated Hyperparameter Optimization Contest manual](https://docs.qq.com/doc/p/9b3e04cecb9631e393e4316d4b10eaa781b5fd61?dver=2.1.27141849)
+* Code repository：[THPO-Kit Github](https://github.com/QQ-Browser-AI-Algorithm-Competition/THPO_Kit_2021)
+* API reference & ranking rules：[Introduction to THPO-Kit](https://docs.qq.com/doc/p/f274d4d7a1e666b652048b72fb6d3a946ed18c7f?dver=2.1.27141849)
+* Code submission：[Code submission entry](https://algo.browser.qq.com/profile.html#en)
+* Competition FAQ：[Frequently asked questions](https://github.com/QQ-Browser-AI-Algorithm-Competition/THPO_Kit_2021/blob/main/FAQ.md#frequently-asked-questions)
 
 ## 2.Repo structure
 
@@ -288,7 +289,7 @@ example_bayesian_optimization final score:  0.47173337831255463
 
 ### 3.4 Submission
 
-Use  **prepare_submission.sh** script to create a zip file, and submit the zip file to competition website [code submission entry](https://algo.browser.qq.com/profile.html).
+Use  **prepare_submission.sh** script to create a zip file, and submit the zip file to competition website [Code submission entry](https://algo.browser.qq.com/profile.html#en).
 
 ```shell
 ./prepare_submission.sh example_random_searcher
