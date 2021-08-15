@@ -76,6 +76,7 @@ pip3 install -r requirements.txt
 ```python
 # 必须引入searcher抽象类，必不可少
 from thpo.abstract_searcher import AbstractSearcher
+from random import randint
 
 class Searcher(AbstractSearcher):
     searcher_name = "RandomSearcher"
@@ -236,6 +237,7 @@ pip3 install -r requirements.txt
 ```python
 # MUST import AbstractSearcher from thpo.abstract_searcher
 from thpo.abstract_searcher import AbstractSearcher
+from random import randint
 
 class Searcher(AbstractSearcher):
     searcher_name = "RandomSearcher"
