@@ -32,7 +32,7 @@
 
 ## 比赛官方是否有联系方式，如何联系工作人员？
 
-更多信息，请加入QQ群：**`789171326`**，工作人员会在群内进行解答。
+更多信息，请加入QQ群：比赛总群：**`789171326`** 赛题二专属答疑群： **`851236606`** ，工作人员会在群内进行解答。
 
 ---
 
@@ -70,5 +70,5 @@ Therefore, we added that there may be discrepancies between the ranking in `trai
 
 ## Does the competition organizer have contact information and how can I contact the staff?
 
-For more information, please join the QQ group **`789171326`**, the staff will answer your question in the group
+For more information, please join the QQ group **`789171326`** and **`851236606`**, the staff will answer your question in the group
 
