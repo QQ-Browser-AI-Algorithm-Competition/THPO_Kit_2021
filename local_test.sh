@@ -12,6 +12,9 @@ N_SUGGESTION=5
 # number of repeats
 N_REPEAT=10
 
+# check if python3 is installed
+command -v python3 >/dev/null 2>&1 || (echo err:Python 3 is not installed && exit 1)
+
 # Test random search
 # Directory of searcher.py
 SEARCHER="example_random_searcher"
