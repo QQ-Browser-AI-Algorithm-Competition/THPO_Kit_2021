@@ -30,6 +30,10 @@
 
 因此我们补充说明下，在`训练阶段`的排名和`竞技阶段`的排名可能会有所出入。
 
+## 本地执行出现 `err_code: 9009  err_msg: b''` 信息
+
+这个错误是由于python版本不对导致。程序默认使用`python3`执行程序，如果本地使用`python`执行，需要修改 `thpo/common.py` 里面的 `PYTHONX` 变量，修改成 `python`  
+
 ## 比赛官方是否有联系方式，如何联系工作人员？
 
 更多信息，请加入QQ群：比赛总群：**`789171326`** 赛题二专属答疑群： **`851236606`** ，工作人员会在群内进行解答。
@@ -67,6 +71,10 @@ Indeed, the player's score can be stabilized by setting a large enough Repeat nu
 Among them, Repeat=10 in `training phase` can provide quick feedback to the player's algorithm score, which is convenient for the player to debug the algorithm. The goal of the player at this stage is to find a sufficiently good algorithm to compete.and in `competitive phase`, the number of Repeats is large enough. The score can be guaranteed to be stable, and we rank the score at `competitive phase`as the **final score**.
 
 Therefore, we added that there may be discrepancies between the ranking in `training phase` and the ranking in `competitive phase`.
+
+## Local execution appears `err_code: 9009 err_msg: b''` message
+
+This error is caused by the wrong version of python. The program uses `python3` to execute the program by default. If you use `python` locally, you need to modify the `PYTHONX` variable in `thpo/common.py` and change it to `python`
 
 ## Does the competition organizer have contact information and how can I contact the staff?
 
