@@ -13,7 +13,7 @@ N_SUGGESTION=5
 N_REPEAT=10
 
 # check if python3 is installed
-command -v python3 >/dev/null 2>&1 || (echo err:Python 3 is not installed && exit 1)
+command -v python3 >/dev/null 2>&1 || (echo err:python3 is not found, please install python3 or replace PYTHONX in thpo/common.py && exit 1)
 
 # Test random search
 # Directory of searcher.py
