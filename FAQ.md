@@ -72,6 +72,10 @@ Among them, Repeat=10 in `training phase` can provide quick feedback to the play
 
 Therefore, we added that there may be discrepancies between the ranking in `training phase` and the ranking in `competitive phase`.
 
+## Local execution appears `err_code: 9009 err_msg: b''` message
+
+This error is caused by the wrong version of python. The program uses `python3` to execute the program by default. If you use `python` locally, you need to modify the `PYTHONX` variable in `thpo/common.py` and change it to `python`
+
 ## Does the competition organizer have contact information and how can I contact the staff?
 
 For more information, please join the QQ group **`789171326`** and **`851236606`**, the staff will answer your question in the group
